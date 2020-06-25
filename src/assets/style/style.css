@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Lora:wght@400;500;600&family=Raleway:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap");
+/*
+CSS Rule
+font-family: 'Italianno',
+cursive;
+font-family: 'Lora',
+serif;
+font-family: 'Raleway',
+sans-serif;
+
+*/
+.font-itali {
+  font-family: "Italianno", cursive;
+}
+
+.font-lora {
+  font-family: "Lora", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", cursive;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=style.css.map */

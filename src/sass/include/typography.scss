@@ -1,0 +1,38 @@
+// Lora font for navi
+//Italiano font for Schulenburg
+//Raleway for paragraph
+/*
+CSS Rule
+font-family: 'Italianno',
+cursive;
+font-family: 'Lora',
+serif;
+font-family: 'Raleway',
+sans-serif;
+
+*/
+
+.font-itali {
+  font-family: $font-itali;
+}
+
+.font-lora {
+  font-family: $font-lora;
+}
+
+.font-rale {
+  font-family: $font-raleway;
+}
+
+
+.font-size-16 {
+  font-size: 16px
+}
+
+.font-size-20 {
+  font-size: 20px
+}
+
+.font-size-24 {
+  font-size: 24px
+}
