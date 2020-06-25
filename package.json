@@ -1,0 +1,20 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "using docker, php, and sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./src/sass/style.scss ./src/assets/style/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuongduc91/Restaurant-Docker-PHP-SASS.git"
+  },
+  "author": "Cuong Duc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuongduc91/Restaurant-Docker-PHP-SASS/issues"
+  },
+  "homepage": "https://github.com/cuongduc91/Restaurant-Docker-PHP-SASS#readme"
+}
