@@ -41,8 +41,13 @@ sans-serif;
   font-size: 60px;
 }
 
+.font-size-super-big {
+  font-size: 80px;
+}
+
 .side-bar,
-.header-main {
+.header-main,
+.carousel-header-text {
   height: 80vh;
 }
 
@@ -51,8 +56,10 @@ sans-serif;
 }
 
 #carousel-header,
+#carousel-header-text,
 .carousel-inner,
-.carousel-item {
+.carousel-item,
+.carousel-caption {
   height: 100%;
 }
 
@@ -62,9 +69,26 @@ sans-serif;
   object-fit: cover;
 }
 
-.header-carou-btn {
+.carousel-control-prev {
+  position: relative;
+}
+
+.header-carou-btn .carousel-control-prev .carousel-control-prev-icon {
   position: absolute;
-  bottom: 5%;
+  bottom: 5% !important;
+  border: 2px solid #fff;
+}
+
+.header-carou-btn .carousel-control-next .carousel-control-next-icon {
+  position: absolute;
+  bottom: 5% !important;
+  border: 2px solid #fff;
+}
+
+.carousel-caption {
+  width: 100%;
+  bottom: 20% !important;
+  z-index: 10 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
