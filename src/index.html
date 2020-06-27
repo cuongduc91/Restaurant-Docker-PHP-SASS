@@ -22,7 +22,7 @@
   <!-- Header -->
   <div class="col-12 px-0" id="header-div">
     <header id="header">
-      <div class="d-inline">
+      <div class="container-fluid" style="position: relative;">
         <div class="row">
           <!-- side bar -->
           <div class="col-3 side-bar">
@@ -64,16 +64,17 @@
             </div>
           </div>
           <!-- !side bar -->
-          <!-- carousel -->
-          <div class="col-9 p-0 header-main">
+          <div class="col-9 p-0 header-main" style="position: relative;">
+
+            <!-- carousel -->
             <div id="carousel-header" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block img-fluid w-100" src="./assets/img/res-outdoor1.jpg" alt="First slide">
+                  <img class="d-block img-fluid w-100" src="./assets/img/res-indoor1.jpg" alt="First slide">
 
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block img-fluid w-100" src="./assets/img/res-indoor1.jpg" alt="Second slide">
+                  <img class="d-block img-fluid w-100" src="./assets/img/res-outdoor1.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
                   <img class="d-block img-fluid w-100" src="./assets/img/res-outdoor5.jpg" alt="Third slide">
@@ -86,34 +87,69 @@
                 </div>
               </div>
             </div>
-          </div>
-          <!-- !carousel -->
+            <!-- !carousel -->
 
+            <!-- Nav -->
+            <nav class="navbar navbar-expand-lg navbar-dark font-lora text-uppercase font-weight-bold"
+              style="position: absolute !important;top: 1em !important;">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-toggle"
+                aria-controls="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="nav-toggle">
+                <a class="navbar-brand" href="#"></a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 nav-fill w-100">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Restaurant<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#">Speisekarte</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#">Bruch am Sonntag</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#">Hochzeit</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#">Der Turm</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <!-- !Nav -->
+
+          </div>
         </div>
         <!-- carousel text -->
-        <div class="row float-left">
-          <div id="carousel-header-text" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 class="text-light font-weight-bold font-lora font-size-super-big ">Die beste Outdoor
-                  </h1>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 class="text-light font-weight-bold font-lora font-size-super-big ">Die beste Outdoor
-                  </h1>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="carousel-caption d-none d-md-block">
-                  <h1 class="text-light font-weight-bold font-lora font-size-super-big ">Die beste Outdoor
-                  </h1>
-                </div>
+        <div id="carousel-header-text" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-caption">
+                <h3>Boyd W.</h3>
               </div>
             </div>
+            <div class="carousel-item">
+              <div class="carousel-caption">
+                <h3>Diane L</h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption">
+                <h3>Randall L</h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption">
+                <h3>John D.</h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel-caption">
+                <h3>Jody B.</h3>
 
+              </div>
+            </div>
           </div>
         </div>
         <!-- !carousel text -->

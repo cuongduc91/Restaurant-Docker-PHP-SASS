@@ -1,6 +1,6 @@
 .side-bar,
 .header-main,
-.carousel-header-text {
+#carousel-header-text {
   height: 80vh;
 }
 
@@ -9,7 +9,6 @@
 }
 
 #carousel-header,
-#carousel-header-text,
 .carousel-inner,
 .carousel-item,
 .carousel-caption {
@@ -30,19 +29,53 @@
   position: absolute;
   bottom: 5% !important;
   border: 2px solid #fff;
-
 }
 
 .header-carou-btn .carousel-control-next .carousel-control-next-icon {
   position: absolute;
   bottom: 5% !important;
   border: 2px solid #fff;
-
 }
 
+.header-main {
+  position: relative;
+}
 
-.carousel-caption {
+.navbar,
+.navbar-nav {
   width: 100%;
-  bottom: 20% !important;
+}
+
+#carousel-header-text {
+
+  position: absolute !important;
+  top: 0 !important;
   z-index: 10 !important;
+}
+
+//div fits to content
+.nav-link {
+  display: inline-block !important;
+}
+
+.nav-item.active {
+  .nav-link {
+    border-bottom: 2px solid $color-sidebar;
+  }
+}
+
+.nav-link:hover {
+  color: #fff !important;
+  border-bottom: 2px solid $color-sidebar;
+}
+
+// add darker layer on image
+.carousel-item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
 }
