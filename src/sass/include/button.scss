@@ -28,11 +28,16 @@
     position: absolute;
     margin: auto 0;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    color: #fff;
 
   }
 
   &:hover {
+    span {
+      color: #333366;
+    }
+
     .o1 {
       fill: rgba(#CC8110, 0.3);
     }

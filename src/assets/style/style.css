@@ -157,7 +157,11 @@ sans-serif;
   position: absolute;
   margin: auto 0;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+.button-header:hover span {
+  color: #333366;
 }
 .button-header:hover .o1 {
   fill: rgba(204, 129, 16, 0.3);
